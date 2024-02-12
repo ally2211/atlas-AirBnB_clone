@@ -1,0 +1,22 @@
+/* Target the header */
+header {
+    background-color: var(--color-white);
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+
+    align-items: left;
+    padding-left: 100px; /* Space for logo */
+}
+.logo {
+    background-position: top left;
+    width: 150px; /* Adjust to fit the entire image */
+    height: 70px; /* Adjust to fit the entire image */
+    background-image: url("../images/logo-hbnb.png");
+    background-size: contain; /* Makes the whole image fit within the dimensions */
+    background-repeat: no-repeat;
+    background-position: center; /* Centers the background image */
+}
+:root {
+--color-white: #ffffff;
+}
