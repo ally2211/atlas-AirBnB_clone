@@ -1,0 +1,13 @@
+/* Target the .footer class */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;/* vertically centered */
+    background-color: white;
+    height: 60px; 
+    width: 100%;
+    position: fixed; /* Fix the footer at the bottom */
+    bottom: 0;
+    text-align: center;
+    border-top: 1px solid #CCCCCC;   
+}
